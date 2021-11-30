@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  name: github
+  repo: im-coder-lg/gatsby-test # Path to your GitHub repository
+  # optional, defaults to master
+  branch: main
 
 media_folder: static/img
 public_folder: /img
@@ -15,7 +17,7 @@ collections:
     public_folder: ''
     path: '{{title}}/index'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
