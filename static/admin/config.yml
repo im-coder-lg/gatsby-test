@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: im-coder-lg/gatsby-test # Path to your GitHub repository
-  # optional, defaults to master
-  branch: main
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
 
 media_folder: static/img
 public_folder: /img
